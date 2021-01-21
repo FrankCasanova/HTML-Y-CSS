@@ -6,37 +6,31 @@
     <title>Calendario</title>
 </head>
 <body>
+    <main>
+        <!--formularios perfectos-->
+        <form action="">
+            <label for="nombre">
+                <span>Cuál es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>E-mail?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>Pais</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>Código postal</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+            
+        </form>
+    </main>
 
-    <!-- <form action=""> -->
-
-        <!-- formulario con posibilidad
-        de enviar información-->
-        <!-- <label for="hora">
-            <span>Hora</span>
-            <input type="time" id="hora" name="hora">
-        </label>
-        <label for="día">
-            <span>Día</span>
-            <input type="date" id="día" name="día">
-        </label>
-        <label for="semana">
-            <span>Semana</span>
-            <input type="week" id="semana" name="semana">
-        </label>
-        <label for="mes">
-            <span>Mes</span>
-            <input type="month" id="mes" name="mes">
-        </label>
-        <input type="submit">
-    </form> -->
-
-    <form action="">
-        <label for="calendario">
-            <span>Calendario</span>
-            <input type="datetime-local" id="calendario" name="calendario"/>
-        </label>
-        <input type="submit">
-    </form>
+    
     
 </body>
 </html>
