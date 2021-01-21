@@ -40,6 +40,18 @@
                 <!--lista ordenada-->
             </ol>
             <section>
+                <video 
+                
+                controls
+                preload="auto"
+                >
+                <source src="./2106055568.mp4#t=4,8"> 
+                    <!-- source sirve para que los navegadoras sepan que hacer con el vídeo-->
+                </video> <!--control es play,
+                             preload es para que se cargue-->
+            </section>
+
+            <section>
                 <figure>
     
                     <!-- alt ayuda a saber de que va la imagen en caso de que se rompa-->
@@ -54,6 +66,28 @@
                 
             
             </section>
+
+            <form action="">
+
+                <!--forma correcta de hacer los formularios
+                dentro del id tiene que haber los mismo que en el for-->
+        
+                <label for="Nombre">
+                    <span>Cual es tu nombre</span>
+                    <input type="text" id='Nombre' placeholder="Nombre">
+                </label>
+                <label for="Inicio_Platzi">
+                    <span>Cuando iniciaste en Platzi</span>
+                    <input type="text" id='Inicio_Platzi' placeholder="Fecha inicio" >
+                </label>
+                <label for="Fecha">
+                    <span>Qué día comenzaste?</span>
+                    <input type="date" id='Fecha' placeholder="día">
+                </label>
+                <label for="Horario">
+                    <span>Qué horas</span>
+                    <input type="time" id='Horario' placeholder="hora">
+                </label>
 
         </main>
 
