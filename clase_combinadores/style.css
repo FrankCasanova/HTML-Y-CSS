@@ -1,0 +1,13 @@
+/* aplica el color a todo lo cercano */
+/* h2 + p{ 
+    color: red;
+} */
+
+/* aplica el estilo a todos los cercanos aunque haya separaciones por medio */
+/* h2 ~ p{
+    color: red;
+} */
+
+div p{
+    color: red;
+}
